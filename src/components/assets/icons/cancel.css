@@ -1,0 +1,5 @@
+
+.hover-cancel-icon:hover .cancel-icon .circle-path,
+.hover-cancel-icon:hover .cancel-icon .cross-path {
+    stroke: #FFFFFF;
+}

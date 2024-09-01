@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: nexbedev/hbi-web:qat
+    container_name: hbi-web
+    restart: always
+    env_file: .env
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+      NEXT_PUBLIC_URL: ${NEXT_PUBLIC_URL}
+      NODE_ENV: ${NODE_ENV}
+      API_TOKEN: ${API_TOKEN}
+    ports:
+      - 3004:3000

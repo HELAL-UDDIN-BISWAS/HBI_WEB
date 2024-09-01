@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "clinic_name": "Healthy Life Clinic",
+        "clinic_country": "USA"
+    },
+    {
+        "id": 2,
+        "clinic_name": "Wellness Medical Center",
+        "clinic_country": "Canada"
+    },
+    {
+        "id": 3,
+        "clinic_name": "CarePlus Health Services",
+        "clinic_country": "UK"
+    },
+    {
+        "id": 4,
+        "clinic_name": "Sunshine Clinic",
+        "clinic_country": "Australia"
+    },
+    {
+        "id": 5,
+        "clinic_name": "Global Health Clinic",
+        "clinic_country": "Germany"
+    },
+    {
+        "id": 6,
+        "clinic_name": "Hope Medical Clinic",
+        "clinic_country": "India"
+    },
+    {
+        "id": 7,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 8,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 9,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 10,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 11,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 12,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    },
+    {
+        "id": 13,
+        "clinic_name": "Harmony Health Clinic",
+        "clinic_country": "Brazil"
+    }
+]

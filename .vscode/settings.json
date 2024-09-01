@@ -1,0 +1,9 @@
+{
+  "prettier.bracketSameLine": true,
+  "prettier.resolveGlobalModules": true,
+  "prettier.singleAttributePerLine": true,
+  // "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.withNodeModules": true
+}

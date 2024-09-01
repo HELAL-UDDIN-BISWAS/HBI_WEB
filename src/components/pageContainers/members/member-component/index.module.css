@@ -1,0 +1,159 @@
+.table-container {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow-x: auto !important;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.flex-grow {
+	flex-grow: 1;
+}
+
+.custom-table {
+	width: 100%;
+	min-width: 800px; /* Ensure table is wide enough */
+}
+
+.custom-table thead {
+	background-color: #e4e7ec;
+	height: 60px;
+}
+
+.custom-table thead th {
+	padding: 12px;
+	text-align: left;
+	color: #344054;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 16px;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+	height: 56px;
+}
+
+.custom-table tbody tr:nth-child(even) {
+	background-color: #f7f7f9;
+	height: 56px;
+}
+
+.custom-table tbody td {
+	padding: 12px;
+	border: none;
+	white-space: nowrap;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.status-active {
+	color: #28a745; /* Green for Active */
+}
+
+.status-inactive {
+	color: #dc3545; /* Red for Inactive */
+}
+
+.status-pending {
+	color: #ffc107; /* Yellow for Pending */
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.cursor-not-allowed {
+	cursor: not-allowed;
+	color: #ccc;
+}
+
+.right-0 {
+	right: 0;
+}
+
+.mt-2 {
+	margin-top: 0.5rem;
+}
+
+.sort-button {
+	display: flex;
+	align-items: center;
+}
+
+.sort-icons {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.sort-icon {
+	margin: -2px 0;
+}
+
+.custom-modal-dialog {
+	max-width: 400px;
+	margin: auto;
+}
+
+.custom-modal-content .modal-header {
+	border: none;
+}
+
+.entriesInfo {
+	font-size: 14px;
+	color: #595959;
+	margin-bottom: 8px;
+}
+
+.dropdownItem {
+	background-color: transparent;
+	padding-inline: 15px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: inherit; /* inherit the color for different statuses */
+}
+
+.dropdownItem:focus,
+.dropdownItem:active {
+	background-color: transparent !important;
+	color: inherit !important;
+}
+
+.editItem {
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	background-color: #3fc9c1;
+	color: white;
+}
+
+.editItem:hover {
+	background-color: #1ad2c9;
+	color: white;
+}
+
+.suspendItem {
+	color: #e94c40;
+}
+
+.suspendItem:hover {
+	color: #dd1e10;
+}
+
+.activateItem {
+	color: #8bc675;
+}
+
+.activateItem:hover {
+	color: #6ec54e;
+}

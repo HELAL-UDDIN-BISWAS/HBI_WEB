@@ -1,0 +1,99 @@
+.react-bootstrap-table {
+	min-height: 60dvh !important;
+	/* background-color: #ff0000 !important; */
+}
+.tableWrapper {
+	max-width: 100%;
+	position: relative;
+	/* background-color: red !important; */
+	border-radius: 10px !important;
+	overflow-x: auto;
+	overflow-y: auto;
+	&::-webkit-scrollbar {
+		width: 4px;
+		height: 4px;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background-color: #908e96;
+	}
+	&::-webkit-scrollbar-corner {
+		background: transparent;
+	}
+	.pagination {
+		padding: 10px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.page-link {
+		outline: none !important;
+		box-shadow: none !important;
+		/* // box-shadow: "0px 4px 4px rgba(0, 0, 0, 0.25)", */
+	}
+	.react-bootstrap-table-pagination {
+		display: block;
+		width: 100%;
+	}
+	.react-bootstrap-table-pagination-list {
+		width: 100%;
+	}
+	.table {
+		border-radius: 10px;
+
+		table {
+			width: 100%;
+			overflow: auto;
+			border-collapse: collapse;
+			border: 0 !important;
+		}
+		th {
+			background-color: #e4e7ec;
+			font-size: 14px;
+			padding: 0.75rem 1rem;
+			font-weight: bold;
+			line-height: 16px;
+			color: #344054;
+			vertical-align: middle;
+		}
+		tr {
+			/* background-color: red !important; //does not work */
+
+			&:nth-child(even) {
+				/* background-color: red !important; //does not work */
+			}
+			&.even-row {
+				/* background-color: red !important; //does not work */
+			}
+		}
+		td {
+			width: 8rem;
+			height: 3rem;
+			line-height: 16px;
+			font-size: 13px;
+			padding: 0.35rem 1rem;
+			font-weight: normal;
+			vertical-align: middle;
+			border: 0 !important;
+		}
+	}
+	.tableBody {
+		flex: 1;
+		overflow-y: auto;
+		overflow-x: auto;
+		&:not(tr:first-of-type) {
+			border-top: 0;
+			border-bottom: 0;
+		}
+		tr:nth-child(even) {
+			/* background-color: red !important; //does not work */
+		}
+	}
+}
+
+.PaginationTotalDiv {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 1rem;
+}

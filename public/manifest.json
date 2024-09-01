@@ -1,0 +1,37 @@
+{
+  "id": "2",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "scope": "/",
+  "start_url": "/",
+  "name": "HealthDoc Admin",
+  "short_name": "HealthDoc Admin",
+  "description": "pwa app for HealthDoc Admin",
+  "icons": [
+    {
+      "src": "/logo2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo2.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

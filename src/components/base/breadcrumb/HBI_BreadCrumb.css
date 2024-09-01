@@ -1,0 +1,37 @@
+.breadcrumb {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	color: #4a5568;
+	padding-top: 5px;
+}
+
+.breadcrumb-item {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumb-icon {
+	margin: 0 8px;
+	color: #252626;
+}
+
+.breadcrumb-link {
+	text-decoration: none;
+	font-weight: 600;
+	color: #3fc9c1;
+}
+
+.breadcrumb-link:hover {
+	text-decoration: underline;
+	color: #3fc9c1;
+}
+
+.breadcrumb-label {
+	font-weight: 600;
+}
+.pageName {
+	font-size: 26px;
+	font-weight: 600;
+	color: #2f4858;
+}
